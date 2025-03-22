@@ -1,6 +1,45 @@
 @import "tailwindcss";
 
-@utility container{
-    width: 1180px;
-    margin : 0 audio;
+body {
+    scroll-behavior: smooth;
+}
+
+@utility container {
+
+    width: 100%;
+    padding-inline: 20px;
+    margin: 0 auto;
+
+    @variant sm {
+        width: 100%;
+        padding-inline: 15px;
+    }
+
+    @variant lg {
+        padding-inline: 0px;
+    }
+
+    @variant xl {
+        width: 1180px;
+    }
+
+    @variant 2xl {
+        width: 100%;
+    }
+}
+
+@utility navButtons {
+    @apply px-[27px] py-[15px] rounded-3xl hover:bg-[#F9C06A] hover:text-[#1E1E1E] cursor-pointer duration-200 font-medium text-lg text-[#fff]
+}
+
+@utility navItems {
+    @apply flex items-center gap-15 font-medium text-lg text-[#fff]
+}
+
+@utility bannerSection {
+    @apply bg-[url("/images/banner_bg.png")] bg-cover bg-center bg-fixed h-[100vh]
+}
+
+@utility banner_btn{
+    @apply mt-10 px-[27px] py-[15px] rounded-3xl bg-[#F9C06A] shadow-[2px_2px_10px_#F9C06A] cursor-pointer hover:ring-2 ring-[#F9C06A] hover:bg-transparent hover:text-[#fff] duration-200
 }
