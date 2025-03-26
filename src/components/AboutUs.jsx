@@ -13,10 +13,10 @@ const AboutUs = () => {
                     </div>
 
                     <div className="aboutSectionRow">
-                        <CommonAbouCards aboutCardImage={"#"} aboutCardName={"Supreme Beans"} aboutCardInfos={"Beans that provides great taste"}/>
-                        <CommonAbouCards aboutCardImage={"#"} aboutCardName={"High Quality"} aboutCardInfos={"We provide the highest quality"}/>
-                        <CommonAbouCards aboutCardImage={"#"} aboutCardName={"Extraordinary "} aboutCardInfos={"Coffee like you have never tasted"}/>
-                        <CommonAbouCards aboutCardImage={"#"} aboutCardName={"Affordable Price"} aboutCardInfos={"Our Coffee prices are easy to afford"}/>
+                        <CommonAbouCards aboutCardImage={""} aboutCardName={"Supreme Beans"} aboutCardInfos={"Beans that provides great taste"}/>
+                        <CommonAbouCards aboutCardImage={""} aboutCardName={"High Quality"} aboutCardInfos={"We provide the highest quality"}/>
+                        <CommonAbouCards aboutCardImage={""} aboutCardName={"Extraordinary "} aboutCardInfos={"Coffee like you have never tasted"}/>
+                        <CommonAbouCards aboutCardImage={""} aboutCardName={"Affordable Price"} aboutCardInfos={"Our Coffee prices are easy to afford"}/>
                     </div>
                 </div>
             </section>
