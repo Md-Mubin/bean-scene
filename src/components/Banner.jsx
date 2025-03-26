@@ -23,7 +23,7 @@ const Banner = () => {
                                         best flavours coffee you will ever have. We provide the best
                                         for our customers.</p>
                                 </li>
-                                <li>
+                                <li className='hover:bg-[#ffffff80] w-fit rounded-3xl'>
                                     <CommonButton buttonName={"Order Now"} />
                                 </li>
                             </ul>

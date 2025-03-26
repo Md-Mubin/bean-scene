@@ -60,11 +60,11 @@ nav{
 }
 
 @utility discoverSection{
-    @apply py-[82px] bg-fixed
+    @apply py-[82px] bg-fixed relative
 }
 
 @utility discoverInfo{
-    @apply w-[610px]
+    @apply w-[602px]
 }
 
 .discoverInfo h2{
@@ -73,4 +73,12 @@ nav{
 
 .discoverInfo p{
     @apply mb-10 font-normal text-2xl text-[#707070] leading-[34px]
+}
+
+.manuSectionHead p{
+    @apply mt-4 mb-8 font-normal text-2xl text-[#707070] leading-[34px] text-center
+}
+
+@utility menuRow{
+    @apply flex justify-center items-center gap-5
 }

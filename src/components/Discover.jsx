@@ -16,6 +16,10 @@ const Discover = () => {
           </li>
         </ul>
       </div>
+
+      <div className='absolute bottom-[-20%] left-0 z-[-1]'>
+        <img src="/images/coffee_blast.png" alt="side coffe blast" />
+      </div>
     </section>
   )
 }
