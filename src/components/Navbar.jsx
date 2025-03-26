@@ -1,13 +1,29 @@
-import { brandFont, logoFont } from '@/app/layout'
-import React from 'react'
+"use client"
+import { logoFont } from '@/app/layout'
+import { useEffect, useState } from 'react'
 
 const Navbar = () => {
+    const [scrolling, setScrolling] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
         <>
-            <nav className='pt-5 absolute w-full'>
+            <nav className={` ${scrolling ? "shadow-[0px_2px_15px_#ffffff80]" : "bg-transparent"}`}>
                 <div className="container m-auto">
                     <div className='flex justify-between items-center'>
-                        <h2 className={`${logoFont.className} text-[35px] text-[#fff]`}>Bean Scene</h2>
+                        <h2 className={`${logoFont.className} text-[35px] text-white`}>Bean Scene</h2>
                         <ul className="navItems">
                             <li>Home</li>
                             <li>Menu</li>

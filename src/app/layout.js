@@ -5,7 +5,7 @@ import { Nunito, Clicker_Script } from 'next/font/google';
 export const brandFont = Nunito();
 export const logoFont = Clicker_Script({ weight: '400' });
 
-export const metadata = {
+const metadata = {
   title: "Bean Scene",
   description: "Coffe Shop Coffe Beans Next.js react next web developer Mubin Frontend Developer",
 };
