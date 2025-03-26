@@ -5,7 +5,7 @@ body {
     scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6,ul,ol{
+h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
@@ -81,4 +81,12 @@ nav{
 
 @utility menuRow{
     @apply flex justify-center items-center gap-5
+}
+
+.aboutHead p{
+    @apply mt-4 mb-8 font-normal text-2xl text-[#707070] leading-[34px] text-center
+}
+
+@utility aboutSectionRow{
+    @apply flex items-center justify-center gap-5
 }
