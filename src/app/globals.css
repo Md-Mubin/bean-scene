@@ -90,3 +90,7 @@ nav{
 @utility aboutSectionRow{
     @apply flex items-center justify-center gap-5
 }
+
+.aboutSectionEnd p{
+    @apply mt-8 mb-4 font-normal text-2xl text-[#707070] leading-[34px] text-center
+}
