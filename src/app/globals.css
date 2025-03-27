@@ -96,5 +96,17 @@ nav{
 }
 
 @utility chanceSection{
-    @apply w-full h-[100vh] bg-[url("/images/Order_bg.png")] bg-cover bg-no-repeat bg-fixed
+    @apply w-full py-[135px] bg-[url("/images/Order_bg.png")] bg-center bg-cover bg-no-repeat bg-fixed overflow-hidden relative
+}
+
+@utility chanceSectionRow{
+    @apply flex items-center justify-between
+}
+
+@utility feedbackSection{
+    @apply py-[82px] relative
+}
+
+.feedbackHead p{
+    @apply mt-4 mb-[45px] font-normal text-2xl text-[#707070] leading-[34px] text-center
 }
