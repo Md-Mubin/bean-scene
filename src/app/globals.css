@@ -94,3 +94,7 @@ nav{
 .aboutSectionEnd p{
     @apply mt-8 mb-4 font-normal text-2xl text-[#707070] leading-[34px] text-center
 }
+
+@utility chanceSection{
+    @apply w-full h-[100vh] bg-[url("/images/Order_bg.png")]
+}
