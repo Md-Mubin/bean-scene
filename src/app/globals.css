@@ -96,5 +96,5 @@ nav{
 }
 
 @utility chanceSection{
-    @apply w-full h-[100vh] bg-[url("/images/Order_bg.png")]
+    @apply w-full h-[100vh] bg-[url("/images/Order_bg.png")] bg-cover bg-no-repeat bg-fixed
 }
