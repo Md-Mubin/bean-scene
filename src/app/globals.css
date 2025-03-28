@@ -92,7 +92,7 @@ nav{
 }
 
 @utility menuRow{
-    @apply flex justify-center items-center gap-5
+    @apply flex justify-center items-center gap-10 lg:gap-5 flex-wrap lg:flex-nowrap
 }
 
 .aboutHead p{
