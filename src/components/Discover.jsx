@@ -5,7 +5,7 @@ const Discover = () => {
   return (
     <section className='discoverSection'>
       <div className="container">
-        <ul className="flex items-center justify-between">
+        <ul className="flex items-center justify-between flex-col-reverse lg:flex-row">
           <li className='discoverInfo'>
             <h2>Discover the best coffee</h2>
             <p>Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>

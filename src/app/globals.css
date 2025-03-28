@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 nav{
-    @apply py-5 w-full duration-200 absolute
+    @apply hidden lg:block py-5 w-full duration-200 absolute
 }
 
 @utility navButtons {
@@ -76,15 +76,15 @@ nav{
 }
 
 @utility discoverInfo{
-    @apply w-[602px]
+    @apply w-full md:w-[602px] 
 }
 
 .discoverInfo h2{
-    @apply mt-[68px] mb-[29px] font-bold text-[54px] text-[#603809]
+    @apply mt-[68px] mb-[29px] font-bold text-3xl md:text-[54px] text-[#603809]
 }
 
 .discoverInfo p{
-    @apply mb-10 font-normal text-2xl text-[#707070] leading-[34px]
+    @apply mb-10 font-normal text-lg md:text-2xl text-[#707070] leading-[34px]
 }
 
 .manuSectionHead p{
