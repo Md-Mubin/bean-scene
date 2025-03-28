@@ -9,7 +9,7 @@ const Chance_Banner = () => {
             <ParallaxProvider>
                 <section className='chanceSection'>
                     <div className="container">
-                        <Parallax speed={-20}>
+                        <Parallax speed={-30}>
                             <div className="chanceSectionRow">
                                 <ul>
                                     <li className='w-[600px] font-bold text-[54px] text-[#fff]'>

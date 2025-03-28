@@ -10,7 +10,7 @@ const Footer = () => {
         <>
             <ParallaxProvider>
                 <footer>
-                    <Parallax speed={-20}>
+                    <Parallax speed={-30}>
                         <div className="container">
                             <div className='flex items-center gap-[66px] justify-between'>
                                 <ul className='w-[450px]'>

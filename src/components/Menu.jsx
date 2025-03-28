@@ -5,7 +5,7 @@ import React from 'react'
 const Menu = () => {
     return (
         <>
-            <section className='menuSection'>
+            <section className='mb-8'>
                 <div className="container">
                     <div className="manuSectionHead">
                         <CommonHead headName={"Enjoy a new blend of coffee style"} />

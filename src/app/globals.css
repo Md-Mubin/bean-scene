@@ -112,11 +112,11 @@ nav{
 }
 
 @utility subcribeSection{
-    @apply py-20 bg-[url("/images/Subscribe_bg.png")] bg-cover bg-center bg-no-repeat bg-fixed relative
+    @apply py-20 bg-[url("/images/Subscribe_bg.png")] bg-cover bg-center bg-no-repeat bg-fixed relative overflow-hidden
 }
 
 footer{
-    @apply pt-[300px] h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff]
+    @apply pt-[300px] h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff] overflow-hidden
 }
 
 .footerItems li{
