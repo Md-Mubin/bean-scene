@@ -20,8 +20,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={` ${scrolling ? "shadow-[0px_2px_15px_#ffffff80]" : "bg-transparent"}`}>
-                <div className="container m-auto">
+            <nav className={` ${scrolling && "shadow-[0px_2px_15px_#ffffff80] bg-[rgba(0,0,0,0.8)]"}`}>
+                <div className="container">
                     <div className='flex justify-between items-center'>
                         <h2 className={`${logoFont.className} text-[35px] text-white`}>Bean Scene</h2>
                         <ul className="navItems">
