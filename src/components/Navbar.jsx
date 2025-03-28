@@ -25,15 +25,27 @@ const Navbar = () => {
                     <div className='flex justify-between items-center'>
                         <h2 className={`${logoFont.className} text-[35px] text-white`}>Bean Scene</h2>
                         <ul className="navItems">
-                            <li>Home</li>
-                            <li>Menu</li>
-                            <li>About Us</li>
-                            <li>Contact Us</li>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Menu</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
                         </ul>
 
                         <div className='flex gap-[35px]'>
-                            <button className='navButtons'>Log In</button>
-                            <button className='navButtons'>Sign Up</button>
+                            <a href="#">
+                                <button className='navButtons'>Log In</button>
+                            </a>
+                            <a href="#">
+                                <button className='navButtons'>Sign Up</button>
+                            </a>
                         </div>
                     </div>
                 </div>

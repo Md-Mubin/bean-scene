@@ -29,12 +29,15 @@ const Subscribe = () => {
                         </div>
                     </Parallax>
 
-                    <div className='absolute bottom-[-30%] right-0'>
-                        <img src="/images/side_coffee.png" alt="side coffee images" />
-                    </div>
-                    <div className='absolute bottom-[-30%] left-0 scale-x-[-1]'>
-                        <img src="/images/side_coffee.png" alt="side coffee images" />
-                    </div>
+                    <Parallax speed={-50}>
+
+                        <div className='absolute bottom-[-30%] right-0'>
+                            <img src="/images/side_coffee.png" alt="side coffee images" />
+                        </div>
+                        <div className='absolute bottom-[-30%] left-0 scale-x-[-1]'>
+                            <img src="/images/side_coffee.png" alt="side coffee images" />
+                        </div>
+                    </Parallax>
                 </section>
             </ParallaxProvider>
         </>

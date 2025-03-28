@@ -8,11 +8,11 @@ const CommonAboutCards = ({aboutCardImage, aboutCardInfos, aboutCardName}) => {
                     <img src={aboutCardImage} alt="logos" />
                 </li>
 
-                <li className='font-bold text-[28px] text-[#603809] mt-[25px] mb-2'>
+                <li className='font-bold text-[#603809] mt-[25px] mb-2' style={{fontSize : `calc(1vw + 16px)`}}>
                     {aboutCardName}
                 </li>
 
-                <li className='font-normal text-2xl text-[#707070]'>
+                <li className='font-normal text-[#707070]' style={{fontSize : `calc(0.5vw + 14px)`}}>
                     {aboutCardInfos}
                 </li>
             </ul>

@@ -55,6 +55,18 @@ nav{
     @apply flex items-center gap-15 font-medium text-lg text-[#fff]
 }
 
+.navItems li{
+    @apply relative;
+
+    &:hover::before{
+        width: 100%;
+    }
+}
+
+.navItems li::before{
+    @apply content-[""] w-0 h-[2px] bg-[#fff] absolute left-0 bottom-0 duration-200
+}
+
 @utility bannerSection {
     @apply bg-[url("/images/banner_bg.png")] bg-cover bg-center bg-fixed h-[100vh]
 }
@@ -88,7 +100,7 @@ nav{
 }
 
 @utility aboutSectionRow{
-    @apply flex items-center justify-center gap-5
+    @apply flex items-center justify-center gap-5 flex-wrap xl:flex-nowrap
 }
 
 .aboutSectionEnd p{

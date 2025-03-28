@@ -12,7 +12,7 @@ const Footer = () => {
                 <footer>
                     <Parallax speed={-30}>
                         <div className="container">
-                            <div className='flex items-center gap-[66px] justify-between'>
+                            <div className='flex items-center gap-[66px] justify-between flex-col lg:flex-row'>
                                 <ul className='w-[450px]'>
                                     <li className={`${logoFont.className} font-normal text-[54px] text-[#fff] mb-4`}>Bean Scene</li>
                                     <li className='py-5 font-normal text-sm text-[#fff] leading-[22px]'>

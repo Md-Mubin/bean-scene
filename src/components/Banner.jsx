@@ -10,7 +10,7 @@ const Banner = () => {
             <ParallaxProvider>
                 <section className='bannerSection overflow-hidden'>
                     <div className="container">
-                        <Parallax speed={-30}>
+                        <Parallax speed={-50}>
                             <ul>
                                 <li className='mt-[200px] font-medium text-[22px] text-[#fff]'>
                                     <p>We've got your morning covered with</p>
