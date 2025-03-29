@@ -12,11 +12,11 @@ const Chance_Banner = () => {
                         <Parallax speed={-30}>
                             <div className="chanceSectionRow">
                                 <ul>
-                                    <li className='w-[600px] font-bold text-[54px] text-[#fff]'>
+                                    <li className=' lg:w-[600px] font-bold text-4xl lg:text-[54px] text-[#fff]'>
                                         Get a chance to have an Amazing morning
                                     </li>
 
-                                    <li className='my-[22px] w-[409px] font-normal text-xl text-[#fff] leading-[34px]'>
+                                    <li className='my-[22px] lg:w-[409px] font-normal text-xl text-[#fff] leading-[34px]'>
                                         We are giving you are one time opportunity to
                                         experience a better life with coffee.
                                     </li>

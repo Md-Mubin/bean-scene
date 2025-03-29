@@ -12,8 +12,8 @@ const Footer = () => {
                 <footer>
                     <Parallax speed={-30}>
                         <div className="container">
-                            <div className='flex items-center gap-[66px] justify-between flex-col lg:flex-row'>
-                                <ul className='w-[450px]'>
+                            <div className='flex lg:items-center gap-[66px] justify-between flex-wrap lg:flex-nowrap'>
+                                <ul className='lg:w-[450px]'>
                                     <li className={`${logoFont.className} font-normal text-[54px] text-[#fff] mb-4`}>Bean Scene</li>
                                     <li className='py-5 font-normal text-sm text-[#fff] leading-[22px]'>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -52,7 +52,7 @@ const Footer = () => {
                                     <li>FAQ</li>
                                 </ul>
 
-                                <ul className='w-[332px] footerItems'>
+                                <ul className='lg:w-[332px] footerItems'>
                                     <li className='font-bold! text-[26px]! mb-[30px] leading-0!'>Contact Us</li>
                                     <li>Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</li>
                                     <li>+1 202-918-2132</li>

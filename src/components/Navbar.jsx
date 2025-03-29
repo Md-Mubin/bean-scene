@@ -1,6 +1,7 @@
 "use client"
 import { logoFont } from '@/app/layout'
 import { useEffect, useState } from 'react'
+import ResNavbar from './ResNavbar';
 
 const Navbar = () => {
     const [scrolling, setScrolling] = useState(false);
@@ -20,9 +21,9 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={` ${scrolling && "shadow-[0px_2px_15px_#ffffff80] bg-[rgba(0,0,0,0.8)]"}`}>
+            <nav className={`${scrolling && "shadow-[0px_2px_15px_#ffffff80] bg-[#000000cc]"}`}>
                 <div className="container">
-                    <div className='flex justify-between items-center'>
+                    <div className='hidden lg:flex justify-between items-center'>
                         <h2 className={`${logoFont.className} text-[35px] text-white`}>Bean Scene</h2>
                         <ul className="navItems">
                             <li>
@@ -48,6 +49,8 @@ const Navbar = () => {
                             </a>
                         </div>
                     </div>
+
+                    <ResNavbar/>
                 </div>
             </nav>
         </>

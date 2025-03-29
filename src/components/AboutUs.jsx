@@ -31,7 +31,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className='absolute top-0 right-0 scale-x-[-1]'>
+                <div className='hidden lg:block absolute top-0 right-0 scale-x-[-1]'>
                     <img src="/images/coffee_blast.png" alt="coffe image" />
                 </div>
             </section>

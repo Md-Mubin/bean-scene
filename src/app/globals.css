@@ -3,6 +3,7 @@
 body {
     background: #fffefc;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -44,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 nav{
-    @apply hidden lg:block py-5 w-full duration-200 absolute
+    @apply py-5 w-full duration-200 absolute
 }
 
 @utility navButtons {
@@ -112,7 +113,7 @@ nav{
 }
 
 @utility chanceSectionRow{
-    @apply flex items-center justify-between
+    @apply flex items-center justify-between flex-col sm:flex-row
 }
 
 @utility feedbackSection{
@@ -128,7 +129,7 @@ nav{
 }
 
 footer{
-    @apply pt-[300px] h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff] overflow-hidden
+    @apply pt-[300px] pb-50 lg:pb-0 lg:h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff] 
 }
 
 .footerItems li{
