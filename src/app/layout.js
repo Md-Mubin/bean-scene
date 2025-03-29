@@ -4,7 +4,7 @@ import { Nunito, Clicker_Script } from 'next/font/google';
 import Footer from "@/components/Footer";
 
 export const brandFont = Nunito();
-export const logoFont = Clicker_Script({ weight: '400' });
+export const logoFont = Clicker_Script({ weight: '400', subsets: ['latin'], preload: false  });
 
 export default function RootLayout({ children }) {
   return (
