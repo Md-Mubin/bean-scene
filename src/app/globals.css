@@ -128,7 +128,7 @@ nav{
 }
 
 footer{
-    @apply pt-[300px] pb-50 lg:pb-0 lg:h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff] 
+    @apply pt-[300px] pb-50 lg:pb-0 lg:h-[70vh] bg-[url("/images/footer_bg.png")] bg-cover bg-no-repeat bg-fixed text-[#fff] overflow-hidden
 }
 
 .footerItems li{
