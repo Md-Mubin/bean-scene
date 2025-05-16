@@ -3,7 +3,7 @@ import React from 'react'
 const CommonAboutCards = ({aboutCardImage, aboutCardInfos, aboutCardName}) => {
     return (
         <>
-            <ul className='py-9 px-10 bg-[#fff9f1] hover:bg-[#FFEED8] text-center duration-200 border-2 rounded-[10px] border-[#FFEED8]'>
+            <ul className='py-9 px-10 bg-[#fff9f1] hover:bg-[#FFEED8] text-center duration-200 border-2 xl:hover:grow rounded-[10px] border-[#FFEED8]'>
                 <li className='w-[88px] m-auto'>
                     <img src={aboutCardImage} alt="logos" />
                 </li>
@@ -12,7 +12,7 @@ const CommonAboutCards = ({aboutCardImage, aboutCardInfos, aboutCardName}) => {
                     {aboutCardName}
                 </li>
 
-                <li className=' sm:w-[250px] font-normal text-[#707070]' style={{fontSize : `calc(0.5vw + 14px)`}}>
+                <li className=' sm:w-[250px] m-auto font-normal text-[#707070]' style={{fontSize : `calc(0.5vw + 14px)`}}>
                     {aboutCardInfos}
                 </li>
             </ul>
