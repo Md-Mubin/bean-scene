@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <>
             <ParallaxProvider>
-                <footer>
+                <footer> 
                     <Parallax speed={-30}>
                         <div className="container">
                             <div className='flex lg:items-center gap-[66px] justify-between flex-wrap lg:flex-nowrap'>
